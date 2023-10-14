@@ -69,9 +69,9 @@
         </div>
         <div class="text-parent">
           <div class="text11">when you buy 150 Bath</div>
-          <button @click="purchase" class="btn btn-dark m-3 rounded-pill">Purchase</button>
           <b class="text12">SAVE 10 %</b>
         </div>
+        <button @click="purchase" class="btn btn-dark m-3 rounded-pill cencen">Purchase</button>
       </div>
     </div>
     <div class="col-md-6">
@@ -210,5 +210,12 @@ watchEffect(() => {
 .lob {
   height: 300%;
 }
+
+.cencen{
+  position: relative;
+  top: -5%;
+  left: 39%;
+}
+
 </style>
   
