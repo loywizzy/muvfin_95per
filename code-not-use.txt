@@ -1,0 +1,188 @@
+const dark = ref("btn dark rounded-pill")
+const light = ref('btn light rounded-pill')
+const count = ref(0)
+const count2 = ref(0)
+const i = ref(0)
+const m = ref(count)
+const listcategory = ref([])
+
+const action = ref(light.value)
+const adventrue = ref(light.value)
+const animation = ref(light.value)
+const comedy = ref(light.value)
+const drama = ref(light.value)
+const documentary = ref(light.value)
+const fantasy = ref(light.value)
+const horror = ref(light.value)
+const romantic = ref(light.value)
+const sicfi = ref(light.value)
+const thriller = ref(light.value)
+
+
+function actioned() {
+    action.value = action.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (action.value === dark.value) {
+       listcategory.value.push('Action');
+        i.value = count.value;
+        count.value++;
+    } else if (action.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('Action');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+
+
+}
+function adventrued(){
+    adventrue.value = adventrue.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (adventrue.value === dark.value) {
+       listcategory.value.push('adventrue');
+        i.value = count.value;
+        count.value++;
+    } else if (adventrue.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('adventrue');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+  }
+function animationed() {
+    animation.value = animation.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (animation.value === dark.value) {
+       listcategory.value.push('animation');
+        i.value = count.value;
+        count.value++;
+    } else if (animation.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('animation');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+  }
+function comedyed() {
+    comedy.value = comedy.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (comedy.value === dark.value) {
+       listcategory.value.push('comedy');
+        i.value = count.value;
+        count.value++;
+    } else if (comedy.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('comedy');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+  }
+function dramaed() {
+    drama.value = drama.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (drama.value === dark.value) {
+       listcategory.value.push('drama');
+        i.value = count.value;
+        count.value++;
+    } else if (drama.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('drama');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+  }
+function documentaryed() {
+    documentary.value = documentary.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (documentary.value === dark.value) {
+       listcategory.value.push('documentary');
+        i.value = count.value;
+        count.value++;
+    } else if (documentary.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('documentary');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+}
+function fantasyed() {
+    fantasy.value = fantasy.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (fantasy.value === dark.value) {
+       listcategory.value.push('fantasy');
+        i.value = count.value;
+        count.value++;
+    } else if (fantasy.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('fantasy');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+}
+function horrored() {
+    horror.value = horror.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (horror.value === dark.value) {
+       listcategory.value.push('horror');
+        i.value = count.value;
+        count.value++;
+    } else if (horror.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('horror');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+}
+function romanticed() {
+    romantic.value = romantic.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (romantic.value === dark.value) {
+       listcategory.value.push('romantic');
+        i.value = count.value;
+        count.value++;
+    } else if (romantic.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('romantic');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+}
+function sicfied() {
+    sicfi.value = sicfi.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (sicfi.value === dark.value) {
+       listcategory.value.push('sicfi');
+        i.value = count.value;
+        count.value++;
+    } else if (sicfi.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('sicfi');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+}
+function thrillered() {
+    thriller.value = thriller.value === light.value ?  dark.value : light.value;
+    count2.value = m.value
+    if (thriller.value === dark.value) {
+       listcategory.value.push('thriller');
+        i.value = count.value;
+        count.value++;
+    } else if (thriller.value === light.value) {
+      const indexToRemove = listcategory.value.indexOf('thriller');
+      if (indexToRemove !== -1) {
+        listcategory.value.splice(indexToRemove, 1);
+        count.value--;
+      }
+    }
+}

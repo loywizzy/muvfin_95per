@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+  font-family: 'Mitr', sans-serif;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-inter: Inter;
+  --font-lato: Lato;
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+  --font-size-3xl: 22px;
+  --font-size-smi: 13px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslateblue: #374785;
+  --color-black: #000;
+  --color-lightblue-100: #b6def9;
+  --color-gray-100: #828282;
+  --color-gray-200: #777;
+  --color-gray-300: #1a2229;
+  --color-gray-400: rgba(255, 255, 255, 0);
+  --color-dimgray: #666;
+  --color-palegoldenrod: #f8e9a1;
+
+  /* Gaps */
+  --gap-7xs: 6px;
+  --gap-5xs: 8px;
+  --gap-mid: 17px;
+  --gap-lgi: 19px;
+  --gap-smi: 13px;
+  --gap-3xs: 10px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-4xl: 23px;
+  --padding-12xs: 1px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-3xl: 22px;
+  --padding-12xl: 31px;
+  --padding-3xs: 10px;
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-lgi: 19px;
+  --padding-sm: 14px;
+
+  /* Border radiuses */
+  --br-980xl: 999px;
+  --br-3xs: 10px;
+  --br-41xl: 60px;
+  --br-12xs: 1px;
+  --br-8xs: 5px;
+}
